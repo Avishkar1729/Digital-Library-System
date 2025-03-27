@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: DigitalLibrarySystem
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: bookSystem
+      auto-index-creation: true
